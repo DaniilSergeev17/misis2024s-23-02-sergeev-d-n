@@ -1,10 +1,6 @@
-CHECK: 20240212-071613
-OK: file codeforces.id is correct
+CHECK: 20240212-174715
+ERROR: codeforces id is wrong
 OK: folder prj.codeforces structure is correct
-ERROR: file CMakeLists.txt is absent
-ERROR: file prj.codeforces/CMakeLists.txt is absent
-ERROR: file prj.lab/CMakeLists.txt is absent
-ERROR: file prj.test/CMakeLists.txt is absent
 ERROR: file prj.lab/complex/CMakeLists.txt is absent
 ERROR: file prj.lab/rational/CMakeLists.txt is absent
 ERROR: CMake generator failed
