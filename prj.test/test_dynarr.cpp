@@ -58,29 +58,3 @@ TEST_CASE("Coping") {
   x.Resize(10);
   CHECK_EQ(y.Size(), 5);
 }
-/*TEST_CASE("dynarr opp[]") {
-  std::ptrdiff_t a = 1;
-  std::ptrdiff_t b = 1; 
-  std::ptrdiff_t c = 1;
-  std::ptrdiff_t d = 1;
-  DynArr arr[]={ a, b, c, d };
-
-  CHECK_EQ(arr[0], 1);
-}
-TEST_CASE("dynarr ssize < 0") {
-  CHECK_EQ(arr.ssize()>0);
-}
-
-
-  CHECK_THROWS_AS(void(DynArr(0)));
-  CHECK_THROWS_AS(void(DynArr(-size)));
-}
-
-TEST_CASE("dynarr op[]") {
-  const int size = 5;
-  DynArr arr(size);
-  CHECK_EQ(arr[0], 0);
-  CHECK_EQ(arr[arr.Size() - 1], 0);
-  CHECK_THROWS(arr[-1]);
-  CHECK_THROWS(arr[arr.Size()]);
-}*/
