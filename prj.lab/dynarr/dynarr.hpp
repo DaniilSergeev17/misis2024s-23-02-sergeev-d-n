@@ -1,6 +1,6 @@
 #pragma once
-#ifndef DYNARR_DYNARR_HPP_20231203
-#define DYNARR_DYNARR_HPP_20231203
+#ifndef DYNARR_DYNARR_HPP
+#define DYNARR_DYNARR_HPP
 
 #include <iostream>
 #include <cstddef>
