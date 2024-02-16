@@ -1,1 +1,1 @@
-add_executable(0004a 0004a.cpp)
+add_executable(gym_100416a "gym_100416a.cpp")
