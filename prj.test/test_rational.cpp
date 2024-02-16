@@ -1,33 +1,3 @@
-/* не работает
-#include <iostream>
-
-Rational a(1, 2);
-Rational b(2, 3);
-
-Rational sum(7, 6);
-Rational diff(-1, 6);
-Rational mul(1, 3);
-Rational dell(3, 4);
-
-  TEST_CASE("checking arithmetic") {
-    CHECK((a + b == sum));
-    CHECK((a - b == diff));
-    CHECK((a * b == mul));
-    CHECK((a / b == dell));
-
-  }
-
-  TEST_CASE("[rational] - Rational ctor") {
-    CHECK(Rational() == Rational(0, 1));
-    CHECK(Rational(3) == Rational(3, 1));
-    CHECK(Rational(-3) == Rational(-3, 1));
-    CHECK(Rational(10, 6) == Rational(5, 3));
-    CHECK(Rational(-10, 6) == Rational(-5, 3));
-    CHECK(Rational(10, -6) == Rational(-5, 3));
-    CHECK(Rational(-10, -6) == Rational(5, 3));
-    CHECK_THROWS(Rational(1, 0));
-  }
- */
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.h"
 
