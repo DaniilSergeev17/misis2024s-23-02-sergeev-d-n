@@ -1,8 +1,8 @@
-#ifndef UNTITLED_RATIONAL_H
-#define UNTITLED_RATIONAL_H
+#ifndef RATIONAL_HPP
+#define RATIONAL_HPP
 
 #include <iosfwd>
-#include <cstdint> //что откуда
+#include <cstdint>
 
 class Rational {
 public:
@@ -98,4 +98,4 @@ inline Rational operator/ (const int64_t lhs, const Rational& rhs) {
 std::ostream& operator<<(std::ostream& ostrm, const Rational& rhs);
 std::istream& operator>>(std::istream& istrm, Rational& rhs);
 
-#endif //UNTITLED_RATIONAL_H
+#endif
