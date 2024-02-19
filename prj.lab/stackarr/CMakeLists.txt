@@ -7,4 +7,5 @@ target_include_directories(stackarr PUBLIC
   $<INSTALL_INTERFACE:include>
 )
 
+target_link_libraries(stackarr complex)
 install(TARGETS stackarr)
