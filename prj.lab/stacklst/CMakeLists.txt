@@ -7,4 +7,5 @@ target_include_directories(stacklst PUBLIC
   $<INSTALL_INTERFACE:include>
 )
 
+target_link_libraries(stacklst complex)
 install(TARGETS stacklst)
