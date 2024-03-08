@@ -15,3 +15,9 @@ target_link_libraries(test_stacklst stacklst)
 
 add_executable(test_queuelst test_queuelst.cpp)
 target_link_libraries(test_queuelst queuelst)
+
+add_executable(test_queuelstpr test_queuelstpr.cpp)
+target_link_libraries(test_queuelstpr queuelstpr)
+
+add_executable(test_queuearr test_queuearr.cpp)
+target_link_libraries(test_queuearr queuearr)
