@@ -1,5 +1,4 @@
-CHECK: 20240325-005211
-OK: file codeforces.id is correct
+CHECK: 20240401-064932
 STATUS: lab complex - test-ok
 STATUS: lab complex_io - test-ok
 STATUS: lab complex_m - test-ok
@@ -8,15 +7,15 @@ STATUS: lab rational_io - test-ok
 STATUS: lab rational_m - test-failed
 STATUS: lab dynarr - test-failed
 STATUS: lab dynarr_m - test-failed
-STATUS: lab stackarr - test-ok
+ERROR: lab stackarr - test build failed
 STATUS: lab stackarr_m - test-failed
-STATUS: lab stacklst - test-ok
+ERROR: lab stacklst - test build failed
 STATUS: lab stacklst_m - test-failed
 ERROR: lab queuearr - test build failed
 ERROR: lab queuearr_m - test build failed
-STATUS: lab queuelst - test-ok
+ERROR: lab queuelst - test build failed
 STATUS: lab queuelst_m - test-failed
-STATUS: lab queuelstpr - test-ok
+ERROR: lab queuelstpr - test build failed
 STATUS: lab queuelstpr_m - test-ok
 ERROR: lab bitset - test build failed
 ERROR: lab bitset_m - test build failed
