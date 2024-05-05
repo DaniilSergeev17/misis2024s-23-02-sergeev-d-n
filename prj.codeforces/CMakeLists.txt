@@ -1,3 +1,7 @@
 add_executable(gym_100416a "gym_100416a.cpp")
 add_executable(1931a "1931a.cpp")
 add_executable(1923a "1923a.cpp")
+add_executable(0066b "0066b.cpp")
+add_executable(0680b "0680b.cpp")
+add_executable(0463b "0463b.cpp")
+add_executable(0102b "0102b.cpp")
