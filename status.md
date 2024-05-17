@@ -1,8 +1,4 @@
-CHECK: 20240513-075102
-OK: file codeforces.id is correct
-OK: folder prj.codeforces structure is correct
-OK: CMake generator successed
-ERROR: CMake build (MSVC x64) failed
+CHECK: 20240517-140746
 STATUS: lab complex - test-ok
 STATUS: lab complex_io - test-ok
 STATUS: lab complex_m - test-ok
@@ -15,7 +11,11 @@ ERROR: lab stackarr - test build failed
 STATUS: lab stackarr_m - test-failed
 ERROR: lab stacklst - test build failed
 STATUS: lab stacklst_m - test-failed
-ERROR: lab queuelst - test build failed
-STATUS: lab queuelst_m - test-failed
 ERROR: lab queuearr - test build failed
 ERROR: lab queuearr_m - test build failed
+ERROR: lab queuelst - test build failed
+STATUS: lab queuelst_m - test-failed
+ERROR: lab queuelstpr - test build failed
+STATUS: lab queuelstpr_m - test-ok
+ERROR: lab bitset - test build failed
+ERROR: lab bitset_m - test build failed
